@@ -134,4 +134,15 @@ Do not store downloaded MFCMAPI executables in this repository. Treat the tool a
 
 ## References
 
-Add the Microsoft support and product documentation used during each investigation here.
+- Microsoft Learn - Get-EXOMailboxFolderStatistics
+- Microsoft Learn - Get-MailboxFolderStatistics
+- Microsoft Learn - Exchange Online PowerShell
+- Microsoft Support - Shared calendars appearing in Online Archive
+- Microsoft Support - Archive mailboxes
+- MFCMAPI Official GitHub Repository
+
+---
+
+> **Note**
+>
+> This procedure was developed following investigation of a production Exchange Online environment where delegated calendar folders unexpectedly appeared beneath users' Online Archive mailboxes in Outlook Classic whilst remaining absent from Outlook on the web.
