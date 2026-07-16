@@ -63,7 +63,7 @@ Use:
 ```powershell
 .\Get-ArchiveCalendarBaseline.ps1 `
     -Mailbox username@domain.com `
-    -OutputPath C:\Temp\Sophie-ArchiveCalendars-Before.csv
+    -OutputPath C:\Temp\User-ArchiveCalendars-Before.csv
 ```
 
 The baseline includes:
@@ -105,7 +105,7 @@ Example:
 
 ```powershell
 .\Verify-ArchiveCalendarRemediation.ps1 `
-    -Mailbox sophiew@contoso.com `
+    -Mailbox user@domain.com `
     -BaselinePath C:\Temp\User-ArchiveCalendars-Before.csv
 ```
 
