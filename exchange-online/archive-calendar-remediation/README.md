@@ -62,7 +62,7 @@ Use:
 
 ```powershell
 .\Get-ArchiveCalendarBaseline.ps1 `
-    -Mailbox sophiew@contoso.com `
+    -Mailbox username@domain.com `
     -OutputPath C:\Temp\Sophie-ArchiveCalendars-Before.csv
 ```
 
@@ -106,7 +106,7 @@ Example:
 ```powershell
 .\Verify-ArchiveCalendarRemediation.ps1 `
     -Mailbox sophiew@contoso.com `
-    -BaselinePath C:\Temp\Sophie-ArchiveCalendars-Before.csv
+    -BaselinePath C:\Temp\User-ArchiveCalendars-Before.csv
 ```
 
 ## Rollback considerations
