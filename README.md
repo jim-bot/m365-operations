@@ -91,72 +91,95 @@ Where possible, solutions should align with Microsoft best practice and avoid un
 
 ---
 
-## Current Content
-
-### Exchange Online
-
-- Archive Calendar Remediation *(In Progress)*
-
 ---
 
-## Planned Content
+## Repository Contents
 
 ### Exchange Online
 
-- Mail Flow Investigations
-- Message Trace v2
-- Shared Mailboxes
-- Mailbox Permissions
-- Online Archive
-- Transport Rules
-- Exchange Online PowerShell
+| Runbook | Status |
+|---------|:------:|
+| [Exchange Online Overview](./exchange-online/) | ✅ |
+| [Archive Calendar Remediation](./exchange-online/archive-calendar-remediation/) | ✅ |
+| Outbound Spam Investigation | 🚧 |
+| Message Trace V2 | 🚧 |
+| Mailbox Offboarding | 🚧 |
+| Mailbox Permissions | 🚧 |
+| Transport Rules | 🚧 |
+
+---
 
 ### Entra ID
 
-- Conditional Access
-- Temporary Access Pass
-- Privileged Identity Management
-- Authentication Methods
-- Identity Protection
+| Runbook | Status |
+|---------|:------:|
+| Entra ID Overview | 🚧 |
+| Conditional Access | 🚧 |
+| Temporary Access Pass | 🚧 |
+| Privileged Identity Management | 🚧 |
+| Authentication Methods | 🚧 |
+| Identity Protection | 🚧 |
+
+---
 
 ### Intune
 
-- Win32 Application Deployment
-- Microsoft 365 Apps
-- Autopilot
-- Compliance Policies
-- Remediations
+| Runbook | Status |
+|---------|:------:|
+| Intune Overview | 🚧 |
+| Win32 Applications | 🚧 |
+| Microsoft 365 Apps | 🚧 |
+| Autopilot | 🚧 |
+| Remediation Scripts | 🚧 |
 
-### Defender
+---
 
-- Defender for Endpoint
-- Defender XDR
-- Advanced Hunting
-- Threat & Vulnerability Management
-- Device Investigations
+### Microsoft Defender
+
+| Runbook | Status |
+|---------|:------:|
+| Defender Overview | 🚧 |
+| Defender for Endpoint | 🚧 |
+| Defender XDR | 🚧 |
+| Advanced Hunting | 🚧 |
+| Threat & Vulnerability Management | 🚧 |
+
+> **Note:** Azure security topics such as Defender for Cloud, Microsoft Sentinel and CSPM are maintained in the companion **azure-security** repository.
+
+---
 
 ### Purview
 
-- eDiscovery
-- Review Sets
-- Communication Compliance
-- Data Lifecycle Management
+| Runbook | Status |
+|---------|:------:|
+| Purview Overview | 🚧 |
+| eDiscovery | 🚧 |
+| Review Sets | 🚧 |
+| Communication Compliance | 🚧 |
+| Data Lifecycle Management | 🚧 |
+
+---
 
 ### Teams
 
-- Teams Administration
-- Meeting Policies
-- Voice
-- External Access
+| Runbook | Status |
+|---------|:------:|
+| Teams Overview | 🚧 |
+| Teams Administration | 🚧 |
+| Meeting Policies | 🚧 |
+| Teams Voice | 🚧 |
+
+---
 
 ### SharePoint
 
-- Site Administration
-- Permissions
-- Sharing
-- OneDrive
-
----
+| Runbook | Status |
+|---------|:------:|
+| SharePoint Overview | 🚧 |
+| Site Administration | 🚧 |
+| Permissions | 🚧 |
+| Sharing | 🚧 |
+| OneDrive | 🚧 |
 
 ## Design Goals
 
@@ -172,11 +195,11 @@ This repository aims to become a practical operational reference for Microsoft 3
 
 ## Author
 
-James Thompson
+**James Thompson**
 
-Senior Cloud Specialist
+Cloud Engineer | Microsoft Cloud | Azure | Microsoft 365
 
-EverythingAzure.tech
+This repository documents operational engineering practices developed through real-world administration of Microsoft cloud technologies. All customer-specific information has been anonymised or replaced with representative examples.
 
 ---
 
